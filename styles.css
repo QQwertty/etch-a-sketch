@@ -1,0 +1,28 @@
+#container {
+  display: flex;
+  height: 640px;
+  width: 640px;
+  background-color: black;
+  flex-wrap: wrap;
+  gap: 2px;
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+button {
+  display: flex;
+}
+.square {
+    background-color: gray;
+}
+
+.controls {
+    display: flex;
+    flex-direction: column;
+}
+.active {
+    background-color: white;
+}
